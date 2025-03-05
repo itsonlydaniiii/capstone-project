@@ -7,6 +7,103 @@
     <title>Explore Gauteng</title>
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauteng Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="planner.html" class="nav-link">Plan Your Trip</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+    </nav>
     
+    <!-- Page 1: Home (Must-Visit Places in Gauteng) -->
+    <header class="main-header">Must-Visit Places in Gauteng</header>
+    <section class="info-section">
+        <h2 class="sub-header">Nature & Wildlife</h2>
+        <p class="text-body">Explore the beauty of Gauteng with visits to the Johannesburg Botanical Gardens, Walter Sisulu National Botanical Garden, and the Lion & Safari Park.</p>
+        <p class="text-body">Estimated cost: R50 - R300 per person</p>
+    </section>
+    <section class="info-section">
+        <h2 class="sub-header">Historical & Cultural Sites</h2>
+        <p class="text-body">Visit the Apartheid Museum, Constitution Hill, and the Cradle of Humankind to dive into South Africa’s rich history.</p>
+        <p class="text-body">Estimated cost: R100 - R250 per person</p>
+    </section>
+    <section class="info-section">
+        <h2 class="sub-header">Entertainment & Shopping</h2>
+        <p class="text-body">Experience Sandton City, Montecasino, and Gold Reef City for shopping, dining, and entertainment.</p>
+        <p class="text-body">Estimated cost: Free entry, activities vary in cost</p>
+    </section>
+    <img src="gauteng.jpg" alt="Scenic View of Gauteng" class="main-image">
+    
+    <!-- Page 2: Travel Planner -->
+    <form class="form-container" action="#" method="post">
+        <fieldset class="form-group">
+            <legend>Plan Your Gauteng Trip</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-input">
+            
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" class="form-input">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" class="form-input">
+            
+            <label>
+                <input type="checkbox" class="form-checkbox"> Subscribe to travel updates
+            </label>
+            
+            <label for="preferences">What would you like to experience?</label>
+            <textarea id="preferences" name="preferences" class="form-textarea"></textarea>
+            
+            <button type="submit" class="btn">Submit Plan</button>
+        </fieldset>
+    </form>
+    
+    <!-- Page 3: Useful Travel Links -->
+    <header class="main-header">Essential Gauteng Travel Resources</header>
+    <ul class="link-list">
+        <li><a href="#" class="travel-link">Gauteng Tourism Authority</a></li>
+        <li><a href="#" class="travel-link">South African National Parks</a></li>
+        <li><a href="#" class="travel-link">Gautrain Schedule & Fares</a></li>
+        <li><a href="#" class="travel-link">Local Weather Updates</a></li>
+        <li><a href="#" class="travel-link">Best Restaurants in Gauteng</a></li>
+    </ul>
+    
+    <!-- Page 4: Photo Gallery -->
+    <header class="main-header">Discover Gauteng in Pictures</header>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="lion_park.jpg" alt="Lion & Safari Park" class="gallery-img">
+            <p class="img-label">Lion & Safari Park</p>
+        </div>
+        <div class="gallery-item">
+            <img src="apartheid_museum.jpg" alt="Apartheid Museum" class="gallery-img">
+            <p class="img-label">Apartheid Museum</p>
+        </div>
+        <div class="gallery-item">
+            <img src="montecasino.jpg" alt="Montecasino" class="gallery-img">
+            <p class="img-label">Montecasino</p>
+        </div>
+        <div class="gallery-item">
+            <img src="cradle_humankind.jpg" alt="Cradle of Humankind" class="gallery-img">
+            <p class="img-label">Cradle of Humankind</p>
+        </div>
+        <div class="gallery-item">
+            <img src="sandton_city.jpg" alt="Sandton City" class="gallery-img">
+            <p class="img-label">Sandton City</p>
+        </div>
+        <div class="gallery-item">
+            <img src="gold_reef.jpg" alt="Gold Reef City" class="gallery-img">
+            <p class="img-label">Gold Reef City</p>
+        </div>
+    </div>
 </body>
 </html>

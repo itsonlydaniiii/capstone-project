@@ -36,3 +36,79 @@ Weather forecast
 📌 6 Images (3 wide x 2 down): Landmarks, food, and scenery.
 📌 Labels for Each Image: Short descriptions (e.g., "Sunset at Bali Beach").
 📌 Clicking an Image Opens the Source: Links to high-quality images or original sources.
+
+Global Styling Classes
+.container → Wraps the content for consistent width and centering.
+.nav-bar → Styles the navigation bar.
+.section → General styling for sections.
+.btn → Styles the form button.
+Typography
+H1 Headers (.main-header)
+
+Font: Arial, strong, large
+Font color: #5B7F7C
+Underline with color #94958B
+H2 Headers (.sub-header)
+
+Font: Arial, medium
+Font color: #5B7F7C (calm green-blue)
+Paragraphs (.text-body)
+
+Font: Arial, normal
+Font color: #3A4F50 (deep greenish-blue)
+Line height: Relaxed for readability
+Navigation Bar
+Navigation Wrapper (.nav-bar)
+
+Background color: Soft blue-green gradient
+Font color: White or #E1E8EB
+Horizontal layout
+Navigation Links (.nav-link)
+
+Font color: #5B7F7C
+Hover: Slight darkening or underline
+Page 1: Home (Destination Overview)
+Main Image (.main-image)
+
+Rounded corners, slight shadow
+Three Sections (.info-section)
+
+Spaced out with a soft background
+Page 2: Travel Planner (Form)
+Form Wrapper (.form-container)
+
+Centered layout
+Fieldset (.form-group)
+
+Soft border, rounded edges
+Inputs (.form-input)
+
+Background: Light, airy blue
+Borders: Soft rounded
+Checkbox (.form-checkbox)
+
+Styled checkbox
+Textarea (.form-textarea)
+
+Larger, same soft background
+Button (.btn)
+
+Background: #5B7F7C (calming green-blue)
+Hover: Slight darkening
+Page 3: Useful Travel Links
+List (.link-list)
+
+Styled with spacing
+Links (.travel-link)
+
+Soft underline, hover effect
+Page 4: Photo Gallery
+Image Grid (.gallery-grid)
+
+Grid layout, 3x2
+Gallery Images (.gallery-img)
+
+Soft rounded edges, hover effect
+Image Labels (.img-label)
+
+Below each image, calming blue text
