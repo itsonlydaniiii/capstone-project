@@ -1,4 +1,8 @@
 # capstone-project
+
+Deployed site: https://exploregauteng.netlify.app/
+
+
 By completing this exercise, you'll practice everything you've learned so far. You'll also end up with something cool that you can put on the internet and show to your friends and family - by sending them a link!
 
 Requirements
